@@ -33,6 +33,4 @@ fun main() {
 
     val task2 = Task("zayson")
     println("task2: ${task2.priority}")
-
-
 }
