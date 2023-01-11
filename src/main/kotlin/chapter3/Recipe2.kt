@@ -10,7 +10,7 @@ class Person(val name: String) {
 
     // var 변수의 경우 Custom Setter 가능
     var height: Int = 180
-        get() = height + 5 // getter 지정도 가능은 함
+        get() = field + 5 // getter 지정도 가능은 함
         set(value) {    // Custom Setter 지정
             field += value
         }
