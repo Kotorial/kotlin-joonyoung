@@ -9,7 +9,7 @@
 - 코틀린 컬렉션은 컬렉션의 필터링을 위해 `Predicate`를 인자로 받는 `filter` 확장함수 포함
     - `filter` 확장함수의 경우 필터링 이후 들어온 타입 그대로 반환하는 것을 확인 가능
 
-        ![image](https://user-images.githubusercontent.com/52314663/215254995-044d1180-caf9-49fe-b377-354a4d6af84a.png)
+      ![image](https://user-images.githubusercontent.com/52314663/215254987-96ed9623-454a-4cf9-abb6-6e33a3cf5650.png)
 
         ```kotlin
         val list = listOf("zayson", 10, LocalDate.now())
@@ -22,7 +22,7 @@
     - `inline` 함수에 적용하는 `reified` 키워드를 이용해 런타임 시에도 타입을 보존
     - `filterIsInstance` 함수는 내부에서 `filterIsInstanceTo` 함수를 호출
 
-      ![image](https://user-images.githubusercontent.com/52314663/215254987-96ed9623-454a-4cf9-abb6-6e33a3cf5650.png)
+        ![image](https://user-images.githubusercontent.com/52314663/215254995-044d1180-caf9-49fe-b377-354a4d6af84a.png)
 
         ```kotlin
         val list2 = listOf("zayson", 10, LocalDate.now())
