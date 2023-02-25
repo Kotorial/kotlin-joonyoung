@@ -20,7 +20,7 @@
 
 - `toString(radix: Int)`의 경우 `toString` 이후 앞에 나오는 0을 잘라버리므로 `padStart` 함수를 이용해 후처리할 수 있다.
 
-    ```java
+    ```kotlin
     4.toString(raidx = 2).padStart(4,'0') // 0100
     ```
 
